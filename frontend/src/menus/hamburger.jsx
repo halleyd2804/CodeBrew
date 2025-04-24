@@ -10,6 +10,7 @@ const Hamburger = function () {
                     <li>📊 Accounting</li>
                     <li>📈 Market Prices</li>
                     <li>🐄 Livestock</li>
+                    <li>🧑‍🌾 My Account</li>
                 </ul>
             </div>
         </div>
