@@ -1,7 +1,9 @@
 // Simple Header for home/main page
 
+// Imports
 import "./Header.css";
 
+// Header Component
 const Header = function () {
     return (
         <div className="main-page-header-section">
