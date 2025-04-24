@@ -24,7 +24,7 @@ const Header = function () {
                 >
                     <InputBase
                         sx={{ ml: 1, flex: 1 }}
-                        placeholder="Search"
+                        placeholder="Search..."
                         inputProps={{ 'aria-label': 'search' }}
                     />
                     <IconButton type="button" sx={{ p: '10px' }} aria-label="search">

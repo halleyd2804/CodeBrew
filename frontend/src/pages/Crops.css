@@ -1,0 +1,67 @@
+
+.crops-table-container {
+    display: inline-block;
+    vertical-align: top;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+.crops-table {
+border-collapse: collapse;
+margin-top: 15px;
+width: 100%;
+
+}
+
+.crops-table th, .crops-table td {
+padding: 12px 15px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+.crops-table th {
+background-color: #f8f9fa;
+font-weight: 600;
+}
+
+.crops-table tr:hover {
+background-color: #f5f5f5;
+}
+
+.profit {
+color: green;
+font-weight: bold;
+}
+
+.loss {
+color: red;
+font-weight: bold;
+}
+
+
+.button {
+background-color: #8f974d; /* Green */
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+
+.button:hover {
+    background-color: green; /* brighter green on hover */
+    cursor: pointer; /* Optional: changes the mouse to a pointer */
+}
+
+.subtitle {
+    font-family: poppins, sans-serif;
+    font-size: 24px;           /* Adjust size for subtitle */
+    color: #555;               /* Soft gray for subtlety */
+    font-weight: 500;          /* Medium weight */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 2;
+    letter-spacing: 0.5px;     /* Slight spacing for readability */
+}

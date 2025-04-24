@@ -1,8 +1,8 @@
 .hamburger-container {
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     background-color: #E9EDC9;
-    max-width: 25vw;
+    width: 25vw;
     height: 100vw;
     padding: 64px;
     font-family: poppins, sans-serif;
