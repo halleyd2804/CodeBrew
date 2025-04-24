@@ -1,12 +1,14 @@
-/* Styling for the header component in home/main page  */
-
 .main-page-header-section {
     display: flex;
     justify-content: space-between;
 }
 
-.main-page-header-content {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
+.main-page-header-logo {
+    background-color: #E9EDC9;
+    width: 25vw;
+    padding: 16px;
+}
+
+.main-page-header-search {
+    margin-top: 2vw;
 }

@@ -1,0 +1,32 @@
+.hamburger-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E9EDC9;
+    max-width: 25vw;
+    height: 100vw;
+    padding: 64px;
+    font-family: poppins, sans-serif;
+    font-size: calc(10px + 1.5vmin);
+}
+
+.hamburger-menu-title {
+    color: sandybrown;
+    margin-bottom: 2vw;
+}
+
+.hamburger-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hamburger-content li {
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.hamburger-content li:hover {
+    background-color: #d7dfaa;
+}
+
