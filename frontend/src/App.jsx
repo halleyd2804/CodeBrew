@@ -5,18 +5,25 @@
 import './App.css'
 import {createRoot} from "react-dom/client";
 import {StrictMode} from "react";
-import RenderLineChart from "./charts/Line.jsx";
-import ButtonUsage from "./simple/Button.jsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+import Home from "./pages/Home.jsx";
+
+const queryClient = new QueryClient();
 
 // Main App component
 const App = function () {
 
   return (
       <StrictMode>
-        <div className="test">
-            <RenderLineChart />
-            <ButtonUsage />
-        </div>
+        <BrowserRouter>
+            <QueryClientProvider client={queryClient}>
+            <Routes>
+                <Route path="/" element={<Home />} />
+            </Routes>
+            </QueryClientProvider>
+        </BrowserRouter>
       </StrictMode>
   );
 }
