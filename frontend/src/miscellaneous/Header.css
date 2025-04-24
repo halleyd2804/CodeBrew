@@ -1,0 +1,12 @@
+/* Styling for the header component in home/main page  */
+
+.main-page-header-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-page-header-content {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
