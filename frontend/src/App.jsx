@@ -6,6 +6,7 @@ import './App.css'
 import {createRoot} from "react-dom/client";
 import {StrictMode} from "react";
 import RenderLineChart from "./charts/Line.jsx";
+import ButtonUsage from "./simple/Button.jsx";
 
 // Main App component
 const App = function () {
@@ -14,6 +15,7 @@ const App = function () {
       <StrictMode>
         <div className="test">
             <RenderLineChart />
+            <ButtonUsage />
         </div>
       </StrictMode>
   );

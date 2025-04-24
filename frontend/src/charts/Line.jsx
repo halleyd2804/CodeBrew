@@ -1,4 +1,4 @@
-// A scatter plot component example for testing purposes
+// A scatter plot component example for testing purposes from Recharts
 
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
