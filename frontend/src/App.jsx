@@ -5,13 +5,16 @@
 import './App.css'
 import {createRoot} from "react-dom/client";
 import {StrictMode} from "react";
+import RenderLineChart from "./charts/Line.jsx";
 
 // Main App component
 const App = function () {
 
   return (
       <StrictMode>
-        <div className="test motion-scale-in-0">Hello</div>
+        <div className="test">
+            <RenderLineChart />
+        </div>
       </StrictMode>
   );
 }
