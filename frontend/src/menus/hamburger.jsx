@@ -1,6 +1,9 @@
 import "./hamburger.css";
+import {useNavigate} from "react-router-dom";
 
 const Hamburger = function () {
+    const navigate = useNavigate();
+
     return (
         <div className="hamburger-container">
             <div className="hamburger-menu-container">
@@ -10,7 +13,7 @@ const Hamburger = function () {
                     <li>📊 Accounting</li>
                     <li>📈 Market Prices</li>
                     <li>🐄 Livestock</li>
-                    <li>🧑‍🌾 My Account</li>
+                    <li onClick={() => navigate("/Login")}>🧑‍🌾 Login</li>
                 </ul>
             </div>
         </div>
